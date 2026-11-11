@@ -1,0 +1,42 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+myenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# YOLO training and experiment results
+runs/
+wandb/
+outputs/
+
+# Datasets
+datasets/
+dataset/
+data/
+
+# Model weights and exported models
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
